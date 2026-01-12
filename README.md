@@ -1,2 +1,29 @@
-# Exp-3
-Ex :3 To create webpage with background image and implement the students registeration form for any event at SIT Nagpur. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>SIT Nagpur - Event Registration</title>
+</head>
+<body background="https://sitnagpur.edu.in/images/contactus_banner.webp">
+ <div>
+ <h1>SIT Nagpur - Event Registration</h1>
+ <form>
+
+ <h2><label for="name">Name:</label> <input type="text" id="name" name="name"
+required></h2>
+
+ <h2><label for="email">Email:</label> <input type="email" id="email" name="email"
+required></h2>
+ <h2><label for="event">Select Event:</label>
+ <select id="event" name="event" required>
+ <option value="">--Choose an event--</option>
+ <option value="hackathon">Hackathon</option>
+ <option value="webdesign">Web Design</option>
+ <option value="both">Both</option>
+ </select>
+ </h2>
+ <h2><input type="submit" value=" Register "></h2>
+ </form>
+ </div>
+</body>
+</html>
